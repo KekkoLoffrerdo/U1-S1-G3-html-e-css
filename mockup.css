@@ -1,9 +1,10 @@
 body {
   background-color: #ffffff;
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+}
+main {
+  width: 700px;
+  margin-inline: auto;
 }
 .logo {
   display: block;
@@ -18,9 +19,7 @@ body {
   text-align: center;
 }
 .title {
-  padding: 32px 28px 40px;
   text-align: center;
-  margin-bottom: 24px;
   color: #333333;
 }
 .first-text {
@@ -34,9 +33,10 @@ body {
 }
 figcaption {
   text-align: center;
+  color: gray;
 }
 .featured-in {
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   margin-bottom: 4px;
 }
