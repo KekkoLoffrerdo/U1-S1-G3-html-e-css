@@ -28,8 +28,9 @@ main {
   margin-bottom: 24px;
 }
 .focaccia {
+  width: 100%;
+  height: auto;
   display: block;
-  margin: 0 auto;
 }
 figcaption {
   text-align: center;
